@@ -84,14 +84,16 @@
                     </form>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <!-- Librería jQuery requerida por los plugins de JavaScript -->
-            <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <!-- Librería jQuery requerida por los plugins de JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 
-            <!-- Todos los plugins JavaScript de Bootstrap (también puedes
-         incluir archivos JavaScript individuales de los únicos
-         plugins que utilices) -->
-            <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Todos los plugins JavaScript de Bootstrap (también puedes
+ incluir archivos JavaScript individuales de los únicos
+ plugins que utilices) -->
+    <script src="assets/js/bootstrap.min.js"></script>
 
 </body>
 
