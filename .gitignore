@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HM | Expertos en Maquinaria &amp; Equipos</title>
+
+    <!-- CSS de Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <!-- Stilos propios -->
+    <link href="assets/css/propio.css" rel="stylesheet">
+
+    <!-- librerías opcionales que activan el soporte de HTML5 para IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="site-wrapper">
+        <div class="site-wrapper-inner">
+            <div class="cover-container">
+                <div class="masthead clearfix">
+                    <div class="inner">
+                        <a class="masthead-brand" href="index.html"><img src="assets/img/logo.png" alt="HM | Expertos en Maquinaria &amp; Equipos"></a>
+                        <nav>
+                            <ul class="nav masthead-nav">
+                                <li class="active"><a href="#">Inicio</a></li>
+                                <li><a href="#">Quienes Somos</a></li>
+                                <li><a href="#myModal" data-toggle="modal" data-target="#myModal">Cont&aacute;ctenos</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="inner cover">
+                    <h1 class="cover-heading">Expertos en Maquinaria &amp; Equipos.</h1>
+                    <p class="lead">Nos destacamos por tener un amplio portafolio de servicios para solventar sus necesidades.</p>
+                    <p class="lead">
+                        <a href="#" class="btn btn-lg btn-primary">Leer más</a>
+                    </p>
+                </div>
+
+                <div class="mastfoot">
+                    <div class="inner">
+                        <p>&copy; 2017 HM, powered by Grupo No. 1 - Programacion WEB.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title modaltext" id="myModalLabel">Contáctenos</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="contacto.php" method="post">
+                        <div class="form-group">
+                            <input type="text" name="nombre" class="form-control" required placeholder="Nombres y apellidos...">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control" required placeholder="Correo electr&oacute;nico...">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="asunto" class="form-control" required placeholder="Asunto...">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="mensaje" class="form-control" rows="10" required placeholder="Mensaje..."></textarea>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                            <button type="submit" class="btn btn-success" name="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Librería jQuery requerida por los plugins de JavaScript -->
+            <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+            <!-- Todos los plugins JavaScript de Bootstrap (también puedes
+         incluir archivos JavaScript individuales de los únicos
+         plugins que utilices) -->
+            <script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
